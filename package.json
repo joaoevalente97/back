@@ -1,10 +1,12 @@
 {
   "name": "back",
+  "homepage": "https://joaoevalente97.github.io/back/",
   "version": "1.0.0",
   "description": "Projeto backend em NodeJS integrado ao MongoDB",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "react-scripts build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
